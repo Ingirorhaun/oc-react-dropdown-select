@@ -26,5 +26,6 @@ export default {
             exclude: 'node_modules/**',
             babelHelpers: 'bundled'
         })
-    ]
+    ],
+    external: ['react', 'react-dom'],
 };

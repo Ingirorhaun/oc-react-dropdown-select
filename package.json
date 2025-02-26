@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Dropdown select component for React",
   "private": false,
-  "main": "index.js",
+  "main": "dist/index.js",
   "module": "dist/index.es.js",
   "type": "module",
   "files": [
