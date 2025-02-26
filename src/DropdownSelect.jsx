@@ -52,8 +52,8 @@ export default function DropdownSelect({ options, onSelect, id }) {
 
   return (
     <div className={styles.dropdown} ref={dropdownRef}>
-      <div className={styles.dropdown-content}>
-        <div className={styles.input-wrapper}>
+      <div className={styles.dropdownContent}>
+        <div className={styles.inputWrapper}>
           <input
             type="text"
             placeholder="Select..."
@@ -66,25 +66,25 @@ export default function DropdownSelect({ options, onSelect, id }) {
             }}
             {...(id ? { id: id } : {})}
           />
-          <span className={`${styles.dropdown-arrow} ${isOpen ? styles.open : ""}`}>▼</span>
+          <span className={`${styles.dropdownArrow} ${isOpen ? styles.open : ""}`}>▼</span>
         </div>
         {isOpen && filteredOptions.length === 0 && (
-          <div className={styles.dropdown-options}>No results found</div>
+          <div className={styles.dropdownOptions}>No results found</div>
         )}
         {isOpen && filteredOptions.length > 0 && (
-          <div className={styles.dropdown-options}>
+          <div className={styles.dropdownOptions}>
             <input
               type="search"
               autoComplete="none"
               placeholder="Search..."
               value={inputValue}
               onChange={handleInput}
-              className={styles.search-input}
+              className={styles.searchInput}
             />
             {filteredOptions.map((option) => (
               <div
                 key={option.value}
-                className={styles.dropdown-option}
+                className={styles.dropdownOption}
                 onClick={() => {
                   handleSelect({
                     target: {

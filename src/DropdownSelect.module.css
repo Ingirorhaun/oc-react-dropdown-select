@@ -1,20 +1,20 @@
 .dropdown {
   max-width: 100%;
 }
-.dropdown-content {
+.dropdownContent {
   position: relative;
   max-width: 100%;
 }
-.input-wrapper {
+.inputWrapper {
   position: relative;
   width: 100%;
 }
-.search-input {
+.searchInput {
   padding-right: 25px;
   width: 100%;
   box-sizing: border-box;
 }
-.dropdown-arrow {
+.dropdownArrow {
   position: absolute;
   right: 10px;
   top: 50%;
@@ -24,14 +24,14 @@
   pointer-events: none;
   transition: transform 0.5s ease;
 }
-.dropdown-arrow.open {
+.dropdownArrow.open {
   transform: translateY(-50%) rotate(180deg);
 }
-.dropdown-content input {
+.dropdownContent input {
   width: 100%;
   box-sizing: border-box;
 }
-.dropdown-options {
+.dropdownOptions {
   position: absolute;
   top: 100%;
   background-color: white;
@@ -44,11 +44,11 @@
   padding: 10px;
   box-sizing: border-box;
 }
-.dropdown-option {
+.dropdownOption {
   cursor: pointer;
   padding: 2px 0;
 }
-.dropdown-option:hover {
+.dropdownOption:hover {
   background-color: #e4f1fb;
   color: #5189ce;
 }
