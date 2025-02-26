@@ -89,7 +89,7 @@ export default function DropdownSelect({ options, onSelect, id }) {
                     target: {
                       value: option.value,
                       label: option.label,
-                      name: name,
+                      name: id,
                     },
                   });
                 }}
