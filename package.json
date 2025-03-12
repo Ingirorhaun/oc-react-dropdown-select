@@ -1,6 +1,6 @@
 {
   "name": "@ingirorhaun/oc-react-dropdown-select",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Dropdown select component for React",
   "private": false,
   "main": "dist/index.js",
