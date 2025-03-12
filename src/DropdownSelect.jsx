@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useRef } from "react";
-import { PropTypes } from "prop-types";
+import  PropTypes from "prop-types";
 import { useState } from "react";
 import styles from './DropdownSelect.module.css';
 /**
